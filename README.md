@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/stphnlyd/perl5-Pod-Weaver-PluginBundle-SLOYD.svg?branch=master)](https://travis-ci.org/stphnlyd/perl5-Pod-Weaver-PluginBundle-SLOYD)
+
 # NAME
 
 Pod::Weaver::PluginBundle::SLOYD - SLOYD's default Pod::Weaver configuration
