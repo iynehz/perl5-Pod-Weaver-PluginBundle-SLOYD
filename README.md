@@ -4,7 +4,7 @@ Pod::Weaver::PluginBundle::SLOYD - SLOYD's default Pod::Weaver configuration
 
 # VERSION
 
-version 0.0001
+version 0.0002
 
 # OVERVIEW
 
