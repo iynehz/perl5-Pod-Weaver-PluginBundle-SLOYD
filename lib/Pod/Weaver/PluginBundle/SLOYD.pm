@@ -17,6 +17,7 @@ It is nearly equivalent to the following:
     [Name]
     [Version]
     [Region  / prelude]
+    [Generic / STATUS]
     [Generic / SYNOPSIS]
     [Generic / DESCRIPTION]
     [Generic / OVERVIEW]
@@ -54,6 +55,7 @@ sub mvp_bundle_config {
         [ '@Default/Version',        _exp('Version'),         {} ],
 
         [ '@Default/prelude', _exp('Region'),  { region_name => 'prelude' } ],
+        [ 'STATUS',           _exp('Generic'), {} ],
         [ 'SYNOPSIS',         _exp('Generic'), {} ],
         [ 'DESCRIPTION',      _exp('Generic'), {} ],
         [ 'OVERVIEW',         _exp('Generic'), {} ],

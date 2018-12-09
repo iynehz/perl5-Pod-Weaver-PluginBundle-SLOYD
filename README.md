@@ -6,7 +6,7 @@ Pod::Weaver::PluginBundle::SLOYD - SLOYD's default Pod::Weaver configuration
 
 # VERSION
 
-version 0.0002
+version 0.0003
 
 # OVERVIEW
 
@@ -19,6 +19,7 @@ It is nearly equivalent to the following:
 [Name]
 [Version]
 [Region  / prelude]
+[Generic / STATUS]
 [Generic / SYNOPSIS]
 [Generic / DESCRIPTION]
 [Generic / OVERVIEW]
