@@ -6,7 +6,7 @@ Pod::Weaver::PluginBundle::SLOYD - SLOYD's default Pod::Weaver configuration
 
 # VERSION
 
-version 0.0003
+version 0.0004
 
 # OVERVIEW
 
@@ -34,6 +34,7 @@ command = func
 [Leftovers]
 [Region  / postlude]
 [Authors]
+[Contributors]
 [Legal]
 
 [-Transformer / Lists]

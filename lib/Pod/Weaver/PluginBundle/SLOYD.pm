@@ -32,6 +32,7 @@ It is nearly equivalent to the following:
     [Leftovers]
     [Region  / postlude]
     [Authors]
+    [Contributors]
     [Legal]
 
     [-Transformer / Lists]
@@ -45,6 +46,12 @@ It is nearly equivalent to the following:
 use namespace::autoclean;
 
 use Pod::Weaver::Config::Assembler;
+
+# dependencies
+use Pod::Weaver::Section::Contributors 0.009 ();
+use Pod::Elemental::Transformer::List 0.102  ();
+use Pod::Weaver::Plugin::Include 0.1.9 ();
+
 sub _exp { Pod::Weaver::Config::Assembler->expand_package( $_[0] ) }
 
 sub mvp_bundle_config {
@@ -69,8 +76,9 @@ sub mvp_bundle_config {
 
         [ '@Default/postlude', _exp('Region'), { region_name => 'postlude' } ],
 
-        [ '@Default/Authors', _exp('Authors'), {} ],
-        [ '@Default/Legal',   _exp('Legal'),   {} ],
+        [ '@Default/Authors',    _exp('Authors'),      {} ],
+        [ '@SLOYD/Contributors', _exp('Contributors'), {} ],
+        [ '@Default/Legal',      _exp('Legal'),        {} ],
     );
 
     push @plugins,
