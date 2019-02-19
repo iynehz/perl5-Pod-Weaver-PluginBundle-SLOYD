@@ -6,7 +6,7 @@ Pod::Weaver::PluginBundle::SLOYD - SLOYD's default Pod::Weaver configuration
 
 # VERSION
 
-version 0.0004
+version 0.0005
 
 # OVERVIEW
 
@@ -23,6 +23,7 @@ It is nearly equivalent to the following:
 [Generic / SYNOPSIS]
 [Generic / DESCRIPTION]
 [Generic / OVERVIEW]
+[Generic / CONSTRUCTION]
 [Collect / ATTRIBUTES]
 command = attr
 [Collect / CLASS METHODS]

@@ -21,6 +21,7 @@ It is nearly equivalent to the following:
     [Generic / SYNOPSIS]
     [Generic / DESCRIPTION]
     [Generic / OVERVIEW]
+    [Generic / CONSTRUCTION]
     [Collect / ATTRIBUTES]
     command = attr
     [Collect / CLASS METHODS]
@@ -66,6 +67,7 @@ sub mvp_bundle_config {
         [ 'SYNOPSIS',         _exp('Generic'), {} ],
         [ 'DESCRIPTION',      _exp('Generic'), {} ],
         [ 'OVERVIEW',         _exp('Generic'), {} ],
+        [ 'CONSTRUCTION',     _exp('Generic'), {} ],
 
         [ 'ATTRIBUTES',    _exp('Collect'), { command => 'attr' } ],
         [ 'CLASS METHODS', _exp('Collect'), { command => 'classmethod' } ],
